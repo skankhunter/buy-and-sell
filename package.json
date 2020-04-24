@@ -6,7 +6,8 @@
   "scripts": {
     "start.dev": "nodemon ./src/main.js",
     "test": "npm run eslint",
-    "eslint": "eslint --ext .js src/"
+    "eslint": "eslint --ext .js src/",
+    "server": "nodemon ./src/main.js --server"
   },
   "author": "Max",
   "license": "ISC",
